@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.header {
+    text-align: center;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.profession {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #ddd;
+}
+
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #04f7ff;
+}
+
+p, ul {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.job, .education {
+    margin-bottom: 20px;
+}
+
+.company, .institution {
+    font-style: italic;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0073e6;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
